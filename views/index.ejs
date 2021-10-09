@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+      <title>index</title>
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron jumbotron-fluid" style="background:url(/images/image1.jpeg); background-size: cover;">
+        <div class="header-menu">
+          <ul class="nav navbar-right">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/table">名詞格変化逆引き辞書</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/request">単語リクエスト</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/new">前置詞共起度検索</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/">このサイトについて</a>
+              </li>
+            </ul>
+        </div>
+        <div class="container">
+          <h1><a href="/" id="header-logo">Słownik</a></h1>
+          <p class="lead">日本語で使えるポーランド語学習支援Webアプリケーション</p>
+        </div>
+      </div>
+    </header>
+    <div class="preamble container">
+      <h3>ポーランド語を学ぶ皆様へ</h3>
+      <p>このWebサイトは、 <span>「ポーランド語学習をもっと身近に、もっと手軽に」</span> をテーマに作成・運営しています。
+        日本ではマイナー言語であるポーランド語はそもそも学習者が少なく、日本語で書かれた教材も少ないため、初学者にとって学習難易度が高い言語です。
+        このWebサイトは、そんなポーランド語を日本語で学ぶサポートをするために開発したアプリケーションを搭載しています。
+      </p>
+      <p>皆様のポーランド語学習の一助になれますように…</p>
+      <p id="data">2020.10.08</p>
+    </div>
+    <div class="main">
+    <div class="container contents">
+      <div class="card mb-3 top">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="\images\image2.jpg" class="card-img" width="100%" height="250">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">名詞格変化逆引き辞書</h5>
+              <p class="card-text">名詞を、辞書の見出し語（単数主格形）と格変化後の形の両方から検索できます。検索結果として、見出し語・名詞性・簡易日本語訳と格変化表を表示します。学習する単語と辞書の間を繋ぐ役割を持ち、初学者が躓きやすい名詞格変化学習をサポートします。</p>
+              <div class="bth_contents">
+                <a href="/table" role="button" class="btn btn-outline-info"><i class="fas fa-search"></i>検索する</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 middole">
+        <div class="row no-gutters">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">単語リクエスト</h5>
+              <p class="card-text">名詞格変化逆引き辞書に収録されていなかった単語について収録を依頼することが出来ます。リクエストされた単語は管理者によって辞書に追加されます。単語の数・格に指定はありません。データ拡充にご協力お願い致します。</p>
+              <div class="bth_contents">
+                <a href="/request" role="button" class="btn btn-outline-info"><i class="fas fa-plus"></i></i>追加する</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="\images\image6.jpg" class="card-img" width="100%" height="250">
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 bottom">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="\images\image5.jpg" class="card-img" width="100%" height="250">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">前置詞共起度検索</h5>
+              <p class="card-text">前置詞を選択（もしくは入力）すると、その語と共起関係を持つ動詞と名詞が表示されます。検索結果は共起度（結びつきの度合い）が高い順に表示され、これは同時に使われる頻度を表します。</p>
+              <div class="bth_contents">
+                <a href="/new" role="button" class="btn btn-outline-info"><i class="fas fa-search"></i>検索する</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

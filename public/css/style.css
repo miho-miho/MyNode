@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  margin: 0
+  padding: 0;
+}
+
+body {
+  font-family:'Meiryo UI';
+}
+
+header {
+	position: relative;
+  color: white;
+  text-align: center;
+}
+
+#header-logo {
+  padding: 0;
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+}
+
+.headerlogo {
+  text-align: center;
+  padding-top: 120px;
+  color: white;
+}
+
+.header-menu {
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.nav-link {
+  color: white;
+  font-size: 14px;
+}
+
+/* index.ejsの設定 */
+
+.contents {
+  box-sizing: border-box;
+  padding-top:50px;
+  margin-top: 50px;
+  background-color: #dfe4f2;
+}
+
+.main {
+  margin-top: 0;
+  background-color: #dfe4f2;
+}
+
+.col-md-8 {
+  background-color: #dfe4f2;
+}
+
+.card-body {
+  position: relative;
+  background-color: #dfe4f2;
+}
+
+.card-title {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.card-text {
+  color: gray;
+}
+
+.bth_contents {
+  text-align: center;
+}
+
+.preamble h3 {
+  text-align: center;
+  color: gray;
+  font-weight: bolder;
+}
+
+.preamble p {
+  color: gray;
+}
+
+#data {
+  text-align: right;
+}
+
+/*table.ejsの設定*/
+
+.mainlogo p {
+  color: gray;
+}
+
+#message {
+  padding-top: 10px;
+  color: gray;
+}
+
+#message p {
+  line-height: 10px;
+}
+
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+ margin: 50px 0px;
+ text-align: center;
+}
+
+table th {
+  padding: 10px 10px;
+}
+
+.tables {
+  float: left;
+  width: 400px;
+  empty-cells: show;
+}
+
+.tables td {
+  width: 70%;
+}
+
+table tr:nth-child(odd){
+  background-color: #eee
+}
+
+.word-info {
+  width: 700px;
+}
+
+.word-info table td {
+  width: 70%;
+}
+
+dt {
+  float: left;
+  clear: left;
+	width: 120px;
+}
+
+dd {
+  float: left;
+}
